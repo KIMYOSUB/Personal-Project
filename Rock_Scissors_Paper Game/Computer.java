@@ -14,13 +14,13 @@ public class Computer extends Interface {
 	String getString(int input) {
 		switch(input) {
 		case 1:
-			output = "°¡À§";
+			output = "ê°€ìœ„";
 			break;
 		case 2:
-			output = "¹ÙÀ§";
+			output = "ë°”ìœ„";
 			break;
 		case 3:
-			output = "º¸";
+			output = "ë³´";
 			break;
 		}
 		return output;
