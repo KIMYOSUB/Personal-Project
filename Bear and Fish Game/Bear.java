@@ -21,7 +21,7 @@ public class Bear extends GameObject {
 		this.x += distance;
 		break;
 		default:
-			System.out.println("�߸��� �Է��Դϴ�.");
+			System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.");
 		}
 	}
 	
