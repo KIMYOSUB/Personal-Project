@@ -151,8 +151,8 @@ public class MainFrame extends JFrame {
 		
 		co = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("correct1.png")));
 		ic = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("incorrect1.png")));
-		co.setBounds(20, 115, 30, 30);  //340, 8, 30, 30
-		ic.setBounds(20, 115, 30, 30);  //340, 8, 30, 30
+		co.setBounds(20, 115, 30, 30);  
+		ic.setBounds(20, 115, 30, 30);  
 		co.setVisible(false);
 		ic.setVisible(false);
 		
