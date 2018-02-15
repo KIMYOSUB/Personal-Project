@@ -18,13 +18,13 @@ public class MainFrame extends JFrame {
 	String []array1; 
 	JButton submit;
 	JButton home;
-	JButton showAn; //////////////////////////////////////공사중
+	JButton showAn; 
 	ButtonGroup g;
 	JRadioButton rb1;
 	JRadioButton rb2;
 	JRadioButton rb3;
 	JTextField answer;
-	JLabel sa; //////////////////////////////////////공사중
+	JLabel sa; 
 	JLabel la1;
 	JLabel co;
 	JLabel ic;
@@ -74,9 +74,9 @@ public class MainFrame extends JFrame {
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				if(e.getStateChange() == ItemEvent.SELECTED) {
-					c.setBackground(new Color(255, 235, 51)); 					 // 카톡 노란색
+					c.setBackground(new Color(255, 235, 51)); 					 
 					ques.setFont(new Font("양재매화체S", Font.BOLD, 20));
-					ques.setForeground(new Color(69, 44, 42));         			 // 카톡 밤색
+					ques.setForeground(new Color(69, 44, 42));         			 
 					la1.setForeground(new Color(69, 44, 42));
 					info.setForeground(new Color(69, 44, 42));
 				 }
@@ -90,7 +90,7 @@ public class MainFrame extends JFrame {
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				if(e.getStateChange() == ItemEvent.SELECTED) {
-					c.setBackground(new Color(214,230,245));				// 하늘색
+					c.setBackground(new Color(214,230,245));				
 					ques.setFont(new Font("HY얕은샘물M", Font.BOLD, 20));
 					ques.setForeground(Color.PINK);          
 					la1.setForeground(Color.PINK);
@@ -220,7 +220,7 @@ public class MainFrame extends JFrame {
 		
 		c.add(submit); c.add(la1); c.add(answer); c.add(co); c.add(ic); c.add(info); c.add(home);
 		c.add(pp); c.add(rb1); c.add(rb2); c.add(rb3); c.add(showAn); c.add(sa);
-		c.setBackground(new Color(163,204,163));  //카톡 노란색 : 255, 235, 51, 밤색 : 69, 44, 42;	
+		c.setBackground(new Color(163,204,163));  	
 		
 		setVisible(true);
 		setSize(700, 400);
