@@ -150,7 +150,7 @@ public class MenuCoverFrame extends JFrame implements Runnable {
 		/**
 		 * 
 		 */
-		private static final long serialVersionUID = 1L; //////////////////////////////공사중
+		private static final long serialVersionUID = 1L; 
 		JLabel ans;
 		JLabel pro;
 		JTextField an;
